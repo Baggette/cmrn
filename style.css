@@ -43,7 +43,7 @@ li a:hover {
   background-color: #111;
 }
 body {
-  background-image: url("/img/backround.jpg");
+  background-image: url("img/backround.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
