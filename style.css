@@ -56,12 +56,11 @@ body {
   animation-fill-mode: forwards;
 }
 div.paragraph {
-  height: 85vh;
-  width: 50vh;
+  height: 80vh;
+  width: 70%;
   background-color: rgba(138, 43, 226, .25);
   text-align: center;
   margin: auto;
-  width: 50%;
   padding: 10px;
   border-radius: 30px;
 }
@@ -74,7 +73,7 @@ div.paragraph {
    }
 }
 #cmrn_img {
-  border-radius: 50%;
+  border-radius: 20vh;
   border: 4px solid chocolate;
   top: 30px;
 }
