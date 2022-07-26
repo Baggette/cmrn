@@ -18,32 +18,7 @@ div.top li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-#bottom {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: absolute;
-  bottom: 10px;
-  border-radius: 15px;
-}
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
 body {
   background-image: url("img/backround.jpg");
   background-repeat: no-repeat;
@@ -76,4 +51,48 @@ div.paragraph {
   border-radius: 20vh;
   border: 4px solid chocolate;
   top: 30px;
+}
+div.bottom ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 15px;
+}
+
+div.bottom li {
+  float: left ;
+}
+
+div.bottom li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div.paragraph ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: absolute;
+  bottom: 10px;
+  border-radius: 15px;
+}
+
+div.paragraph li {
+  float: none ;
+}
+
+div.paragraph li a {
+  display: block;
+  color: white;
+ /* text-align: center;*/
+  padding: 14px 16px;
+  text-decoration: none;
 }
