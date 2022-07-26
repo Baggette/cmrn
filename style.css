@@ -4,6 +4,7 @@ div.top ul{
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  border-radius: 15px;
 }
 
 div.top li {
@@ -25,6 +26,7 @@ div.top li a {
   background-color: #333;
   position: absolute;
   bottom: 10px;
+  border-radius: 15px;
 }
 
 li {
@@ -49,10 +51,30 @@ body {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 div.paragraph {
-  height: 40vh;
+  height: 85vh;
   width: 50vh;
-  background-color: rgba(138, 43, 226, .5);
+  background-color: rgba(138, 43, 226, .25);
   text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 30px;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+#cmrn_img {
+  border-radius: 50%;
+  border: 4px solid chocolate;
+  top: 30px;
 }
