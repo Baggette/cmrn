@@ -58,7 +58,7 @@ div.bottom ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   border-radius: 15px;
 }
@@ -74,25 +74,48 @@ div.bottom li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-div.paragraph ul {
-  list-style-type: none;
-  margin: 0;
+.button {
+  display: flex;
+  height: 75px;
+  width: 35vh;
   padding: 0;
+  background: rgb(164,29,204);
+  background: linear-gradient(149deg, rgba(164,29,204,1) 0%, rgba(100,41,193,1) 43%, rgba(0,116,255,1) 100%);
+  border: 2, blueviolet;
+  outline: none;
+  border-radius: 10px;
   overflow: hidden;
-  background-color: #333;
-  position: absolute;
-  bottom: 10px;
-  border-radius: 15px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
-div.paragraph li {
-  float: none ;
+.button:hover {
+  background: rgb(164,29,204);
+  background: linear-gradient(149deg, rgba(164,29,204,1) 0%, rgba(32,3,77,1) 43%, rgba(0,116,255,1) 100%);
 }
 
-div.paragraph li a {
-  display: block;
-  color: white;
- /* text-align: center;*/
-  padding: 14px 16px;
-  text-decoration: none;
+.button:active {
+  background: rgb(164,29,204);
+  background: linear-gradient(149deg, rgba(164,29,204,1) 0%, rgba(9,1,20,1) 43%, rgba(0,116,255,1) 100%);
+}
+
+.button__text,
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+.button__icon {
+  font-size: 1.5em;
+  float: right;
+  background-position: right;
+  padding-right: 65px;
+  margin-right: 10px;
 }
